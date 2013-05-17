@@ -7,6 +7,7 @@
 <meta name="keywords" content="{$keywords}">
 <meta name="description" content="{$description}">
 <include file="./Public/tpl/home/header.html" />
+<script language="javascript" src="{$tpl}/js/slideControl.js" charset="utf-8"></script>
 </head>
 <body><php>
 $vod_stars = ff_mysql_vod('limit:14;order:vod_stars desc,vod_hits desc');
@@ -73,12 +74,4 @@ $vod_hot_dy = ff_mysql_vod('limit:10;cid:1;order:vod_gold desc,vod_hits desc');<
 </div> 
 <include file="Home:pp_footer" /></div>
 </body>
-<script>
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    animationLoop: true
-  });
-});
-</script>
 </html>

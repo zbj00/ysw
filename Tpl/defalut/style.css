@@ -24,10 +24,7 @@ a:hover{text-decoration:underline;}
 .box2 h3 div{ background:url(images/h3_play.gif) no-repeat 17px; padding-left:37px; font-size:14px}
 .box2 h3 div span{ float:right; padding-right:5px}
 /*幻灯展示*/
-.slides .slide1{src:url(images/slides/1.jpg)}
-.slides .slide2{src:url(images/slides/2.jpg)}
-.slides .slide3{src:url(images/slides/3.jpg)}
-.slides .slide4{src:url(images/slides/4.jpg)}
+.slide:hover{cursor:pointer}
 /*ads*/
 .top960,.vod960,.play960{ clear:both; overflow:hidden; height:90px; margin-bottom:5px;}
 .list300{ margin-bottom:5px}
