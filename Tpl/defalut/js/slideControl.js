@@ -10,5 +10,4 @@ $(window).load(function() {
 	location.href = "index.php?s=vod-search-wd-" + wd;
   });
   
-  
 });
