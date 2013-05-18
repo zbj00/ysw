@@ -19,7 +19,6 @@ $vod_hot_dy = ff_mysql_vod('limit:10;cid:1;order:vod_gold desc,vod_hits desc');<
 <include file="Home:pp_header" />
 <include file="Home:pp_slide" />
 <include file="Home:pp_sidebar" />
-</div>
 <div class="box">
     <div class="top"><h3><a href="{$root}">热播节目推荐</a></h3></div>
     <ul class="imgh4 index_stars"><fflist name="vod_stars" id="ppvod"><li><p><a href="{$ppvod.vod_readurl}"><img class="lazy" data-original="{$ppvod.vod_picurl}" src="" alt="{$ppvod.vod_name}" /></a></p><h4><a href="{$ppvod.vod_readurl}" title="{$ppvod.vod_name}">{$ppvod.vod_name|msubstr=0,12}</a></h4></li></fflist></ul>

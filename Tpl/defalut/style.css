@@ -254,3 +254,30 @@ ul.imgh4 li h4 a{ color:#FFF}
 .ft .ft_r .ft_ico img{ vertical-align:middle;}
 .ft p{ line-height:210%; color:#666;}
 .ft p a{ color:#333333;}
+
+/*pp_sidebar.html*/
+#sidebar{
+	right: 0px; 
+	top: 30%; 
+	position: fixed; 
+	width:20px;
+	overflow: hidden; 
+	z-index:100;
+	height: 200px;
+}
+#sidebarTitle{
+	float:left;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+#sidebarTextArea{
+	display:block;
+	position: absolute;
+	background: #FFFFCC;
+	display: block;
+	left: 29px;
+	width: 100%;
+	height: 100%;
+}
